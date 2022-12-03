@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>DynamicCustomMessage</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>DynamicCustomMessage</shortDescription>
+        <value>{0} is not authorized to access this page</value>
+    </labels>
+    <labels>
+        <fullName>testcl</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>testcl</shortDescription>
+        <value>12</value>
+    </labels>
+    <labels>
+        <fullName>testcl22</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>testcl22</shortDescription>
+        <value>testcl22</value>
+    </labels>
+</CustomLabels>

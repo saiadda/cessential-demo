@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Add</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Add</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Add</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Bank_Name__c</fullName>
+        <description>All the Bank details are stored,</description>
+        <externalId>false</externalId>
+        <label>Bank Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>AXIS</fullName>
+                    <default>false</default>
+                    <label>AXIS</label>
+                </value>
+                <value>
+                    <fullName>HDFC BANK</fullName>
+                    <default>false</default>
+                    <label>HDFC BANK</label>
+                </value>
+                <value>
+                    <fullName>IDBI</fullName>
+                    <default>false</default>
+                    <label>IDBI</label>
+                </value>
+                <value>
+                    <fullName>SBI</fullName>
+                    <default>false</default>
+                    <label>SBI</label>
+                </value>
+                <value>
+                    <fullName>SBH</fullName>
+                    <default>false</default>
+                    <label>SBH</label>
+                </value>
+                <value>
+                    <fullName>KOTAK MAHINDRA</fullName>
+                    <default>false</default>
+                    <label>KOTAK MAHINDRA</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Category__c</fullName>
+        <description>All the categories are stored</description>
+        <externalId>false</externalId>
+        <label>Category</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Education</fullName>
+                    <default>false</default>
+                    <label>Education</label>
+                </value>
+                <value>
+                    <fullName>EFS</fullName>
+                    <default>false</default>
+                    <label>EFS</label>
+                </value>
+                <value>
+                    <fullName>Employee</fullName>
+                    <default>false</default>
+                    <label>Employee</label>
+                </value>
+                <value>
+                    <fullName>Gold Loan</fullName>
+                    <default>false</default>
+                    <label>Gold Loan</label>
+                </value>
+                <value>
+                    <fullName>Home</fullName>
+                    <default>false</default>
+                    <label>Home</label>
+                </value>
+                <value>
+                    <fullName>Individual</fullName>
+                    <default>false</default>
+                    <label>Individual</label>
+                </value>
+                <value>
+                    <fullName>Liability</fullName>
+                    <default>false</default>
+                    <label>Liability</label>
+                </value>
+                <value>
+                    <fullName>Others</fullName>
+                    <default>false</default>
+                    <label>Others</label>
+                </value>
+                <value>
+                    <fullName>Small Group</fullName>
+                    <default>false</default>
+                    <label>Small Group</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Charges_Dynamic_Component__c</fullName>
+        <description>This stores the Charges - Dynamic Component value</description>
+        <externalId>false</externalId>
+        <label>Charges - Dynamic Component</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Charges_Dynamic_Component_percent__c</fullName>
+        <description>This field stores the Charges - Dynamic Component% value.</description>
+        <externalId>false</externalId>
+        <label>Charges - Dynamic Component%</label>
+        <precision>11</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackHistory>false</trackHistory>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Charges_Fixed_Component__c</fullName>
+        <description>This field stores the Charges - Fixed Component</description>
+        <externalId>false</externalId>
+        <label>Charges - Fixed Component</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Charges_Fixed_Component_percent__c</fullName>
+        <description>This field stores the Charges -Fixed Component % value</description>
+        <externalId>false</externalId>
+        <label>Charges -Fixed Component %</label>
+        <precision>11</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackHistory>false</trackHistory>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Charges_Percent_Component__c</fullName>
+        <description>This field stores the Charges - Percent Component value</description>
+        <externalId>false</externalId>
+        <label>Charges - Percent Component</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackHistory>false</trackHistory>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Charges_Type__c</fullName>
+        <description>This field specifies the Charges type</description>
+        <externalId>false</externalId>
+        <label>Charges Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Fixed</fullName>
+                    <default>false</default>
+                    <label>Fixed</label>
+                </value>
+                <value>
+                    <fullName>Percent</fullName>
+                    <default>false</default>
+                    <label>Percent</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Disbursement_Mode__c</fullName>
+        <description>This field stores the Disbursement Mode</description>
+        <externalId>false</externalId>
+        <label>Disbursement Mode</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>BANK</fullName>
+                    <default>false</default>
+                    <label>BANK</label>
+                </value>
+                <value>
+                    <fullName>CASH</fullName>
+                    <default>false</default>
+                    <label>CASH</label>
+                </value>
+                <value>
+                    <fullName>CHEQUE</fullName>
+                    <default>false</default>
+                    <label>CHEQUE</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>DisplayUrl</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>EMI_Post_15__c</fullName>
+        <description>This field stores the emi post value</description>
+        <externalId>false</externalId>
+        <label>EMI Post 15</label>
+        <precision>9</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>EMI_Pre_15__c</fullName>
+        <description>This field stores the emi pre value</description>
+        <externalId>false</externalId>
+        <label>EMI Pre 15</label>
+        <precision>9</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ExternalDataSourceId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ExternalId</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Family</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Gold_Base_Price_gm__c</fullName>
+        <description>This field stores the Gold Base Price/gm value</description>
+        <externalId>false</externalId>
+        <label>Gold Base Price/gm</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Gross_Net__c</fullName>
+        <description>This is to select Gross/Net</description>
+        <externalId>false</externalId>
+        <label>Gross/Net</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Gross</fullName>
+                    <default>false</default>
+                    <label>Gross</label>
+                </value>
+                <value>
+                    <fullName>Net</fullName>
+                    <default>false</default>
+                    <label>Net</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Interest_Actual_Frequency__c</fullName>
+        <description>This filed is to select the frequency of the interest.</description>
+        <externalId>false</externalId>
+        <label>Interest Actual Frequency</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Daily</fullName>
+                    <default>false</default>
+                    <label>Daily</label>
+                </value>
+                <value>
+                    <fullName>Weekly</fullName>
+                    <default>false</default>
+                    <label>Weekly</label>
+                </value>
+                <value>
+                    <fullName>Monthly</fullName>
+                    <default>false</default>
+                    <label>Monthly</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>IsActive</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Loan_Amount__c</fullName>
+        <description>This field is to select the loan amount</description>
+        <externalId>false</externalId>
+        <label>Loan Amount</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Max_Possible_Opportunity__c</fullName>
+        <description>This field stores the Max Possible Opportunity</description>
+        <externalId>false</externalId>
+        <label>Max Possible Opportunity</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Maximum_Grace_Period_in_Days__c</fullName>
+        <description>This field stores the Maximum Grace Period in Days</description>
+        <externalId>false</externalId>
+        <label>Maximum Grace Period in Days</label>
+        <length>16</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Maximum_Installment__c</fullName>
+        <description>This field stores the Maximum Installment.</description>
+        <externalId>false</externalId>
+        <label>Maximum Installment</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Maximum_Interest_Rate__c</fullName>
+        <description>This is to store Maximum Interest Rate</description>
+        <externalId>false</externalId>
+        <label>Maximum Interest Rate</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Maximum_Loan_Amount__c</fullName>
+        <description>This is to store the Maximum Loan Amount</description>
+        <externalId>false</externalId>
+        <label>Maximum Loan Amount</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Maximum_Term__c</fullName>
+        <description>This field stores Maximum Term</description>
+        <externalId>false</externalId>
+        <label>Maximum Term</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>12 months</fullName>
+                    <default>false</default>
+                    <label>12 months</label>
+                </value>
+                <value>
+                    <fullName>24 months</fullName>
+                    <default>false</default>
+                    <label>24 months</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Min_Possible_Opportunity__c</fullName>
+        <description>This stores Min Possible Opportunity</description>
+        <externalId>false</externalId>
+        <label>Min Possible Opportunity</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Minimum_Grace_Period_in_Days__c</fullName>
+        <description>This stores Minimum Grace Period in Days</description>
+        <externalId>false</externalId>
+        <label>Minimum Grace Period in Days</label>
+        <length>16</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Minimum_Installment__c</fullName>
+        <description>This stores Minimum Installment</description>
+        <externalId>false</externalId>
+        <label>Minimum Installment</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Minimum_Interest_Rate__c</fullName>
+        <description>This stores the Minimum Interest Rate</description>
+        <externalId>false</externalId>
+        <label>Minimum Interest Rate</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Minimum_Loan_Amount__c</fullName>
+        <description>This stores Minimum Loan Amount</description>
+        <externalId>false</externalId>
+        <label>Minimum Loan Amount</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Minimum_Term__c</fullName>
+        <description>This stores Minimum Term</description>
+        <externalId>false</externalId>
+        <label>Minimum Term</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>12 months</fullName>
+                    <default>false</default>
+                    <label>12 months</label>
+                </value>
+                <value>
+                    <fullName>24 months</fullName>
+                    <default>false</default>
+                    <label>24 months</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Net_Cash_Flow_120_EMI_required__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This stores Net Cash Flow &gt; 120% EMI required</description>
+        <externalId>false</externalId>
+        <label>Net Cash Flow &gt; 120% EMI required</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ProductCode</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Product_Classification__c</fullName>
+        <description>This stores Product Classification</description>
+        <externalId>false</externalId>
+        <label>Product Classification</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Daily</fullName>
+                    <default>false</default>
+                    <label>Daily</label>
+                </value>
+                <value>
+                    <fullName>Weekly</fullName>
+                    <default>false</default>
+                    <label>Weekly</label>
+                </value>
+                <value>
+                    <fullName>Monthly</fullName>
+                    <default>false</default>
+                    <label>Monthly</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Product_Code__c</fullName>
+        <description>This specifes the Product Code</description>
+        <externalId>true</externalId>
+        <label>Product Code</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Product_Expiry_Date__c</fullName>
+        <description>This stores the Product Expiry Date</description>
+        <externalId>false</externalId>
+        <label>Product Expiry Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>QuantityUnitOfMeasure</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Rate_of_Interest__c</fullName>
+        <description>This stores Rate of Interest</description>
+        <externalId>false</externalId>
+        <label>Rate of Interest</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>StockKeepingUnit</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Tenure__c</fullName>
+        <description>This stores Tenure</description>
+        <externalId>false</externalId>
+        <label>Tenure</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>test__c</fullName>
+        <externalId>true</externalId>
+        <label>test</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>true</unique>
+    </fields>
+    <searchLayouts>
+        <customTabListAdditionalFields>PRODUCT2.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>PRODUCT2.CUSTOMER_PRODUCT_ID</customTabListAdditionalFields>
+        <customTabListAdditionalFields>PRODUCT2.DESCRIPTION</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>PRODUCT2.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>PRODUCT2.CUSTOMER_PRODUCT_ID</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>PRODUCT2.DESCRIPTION</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>PRODUCT2.FAMILY</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>PRODUCT2.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>PRODUCT2.CUSTOMER_PRODUCT_ID</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>PRODUCT2.DESCRIPTION</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>PRODUCT2.FAMILY</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>PRODUCT2.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PRODUCT2.CUSTOMER_PRODUCT_ID</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PRODUCT2.DESCRIPTION</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PRODUCT2.FAMILY</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

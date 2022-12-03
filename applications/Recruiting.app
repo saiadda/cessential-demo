@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>standard-home</defaultLandingTab>
+    <description>Manage positions, candidates, and
+job applications, and track job postings on employment
+websites.</description>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>Recruiting</label>
+    <tabs>Position__c</tabs>
+    <tabs>Candidate__c</tabs>
+    <tabs>Job_Application__c</tabs>
+    <tabs>Employment_Website__c</tabs>
+    <tabs>Repair__c</tabs>
+    <tabs>Automobile__c</tabs>
+</CustomApplication>
